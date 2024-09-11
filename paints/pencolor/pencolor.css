@@ -1,0 +1,6930 @@
+
+@media only screen and (max-width: 799px) {
+  body {
+    background: #101820;
+    font-family: 'Lexend Exa', sans-serif;
+    width: 100%;
+
+  }
+
+  nav {
+    position: fixed;
+    top: 0%;
+    left: 47%;
+    transform: translateX(-50%);
+    display: inline-block;
+    border: 2px solid #EBECF1;
+    border-radius: 30px;
+    animation: slide-in 1s ease-out;
+    z-index: 100;
+    background-color: #101820;
+    width: 90%;
+  }
+  
+  ul {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0 30px;
+    list-style-type: none;
+    li:not(:last-child) {
+      margin-right: 40px;
+    }
+    li {
+      border: 2px solid transparent;
+      border-radius: 5px;
+      padding: 1px;
+      transition: background 0.2s;
+      font-size:6px;
+      a {
+        color: rgb(156, 156, 29);
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 0.2s;
+      }
+      ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        display: block;
+        margin: 12px -12px;
+        padding: 0;
+        background: #90AFC5;
+        border: 2px solid #90AFC5;
+        border-right: 2px solid #90AFC5;
+        border-bottom: 2px solid #90AFC5;
+        border-radius: 5px;
+        transition: opacity 0.2s, visibility 0.2s;
+        li {
+          margin: -2px 0 0 -2px;
+          width: calc(100% - 20px);
+          line-height: 1.7;
+          
+          a {
+            color: #2375D8;
+          }
+        }
+      }
+      &:hover {
+        background: #90afc549;
+        border: 2px solid #90afc549;
+        border-right: 2px solid#90afc549;
+        border-bottom: 2px solid #90afc549;
+        a {
+          color: #F9F8FD;
+        }
+        ul {
+          visibility: visible;
+          opacity: 1;
+          box-shadow: 0px 3px 5px 2px white;
+          li {
+            a {
+              color: #F9F8FD;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes slide-in {
+    0% {
+      top: -50px;
+    }
+    40% {
+      top: 20px;
+    }
+    70% {
+      top: 10px;
+    }
+    100% {
+      top: 15px;
+    }
+  }
+  
+  
+  * {box-sizing:border-box}
+
+  
+ 
+  
+  .main-logo{
+    position: absolute;
+    z-index: 17;
+    width: 40%;
+    top:3%;
+    left:30%;
+    
+  }
+
+
+
+  .i-penplast{
+    width: 100%;
+  }
+  
+  
+  .i3{
+    
+    position: absolute;
+    top:200px;
+    left:0px;
+    right:0px;
+    width: 105%;
+  }
+    
+  
+
+  
+  .h-i{
+    width: 100%;
+    height: 50px;
+
+  }
+ 
+  
+  .header{
+    position: absolute;
+    top:40%;
+    color:rgb(156, 156, 29);
+    font-size:18px;
+    left:10%;
+    font-weight: bold;
+  }
+  
+
+
+.p300{
+  position: absolute;
+  top:50%;
+  width: 90%;
+  left:10%;
+  color:rgb(156, 156, 29);
+  font-size:22px;
+}
+
+.p301{
+  position: absolute;
+  top:100%;
+  width: 90%;
+  left:10%;
+  color:rgb(156, 156, 29);
+  font-size:22px;
+}
+
+
+
+
+
+
+
+
+
+.sq1{
+
+  position: absolute;
+  top:145%;
+  left:10%;
+  background-color: #a85738;
+  height: 150px;
+  width: 150px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq1:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq1:hover .p400{
+  visibility: hidden;
+}
+
+.sq1:hover .p401{
+  visibility: hidden;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.5;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p400{
+
+  margin-left:10px;
+  margin-top:100px;
+  font-size:14px;
+  
+}
+
+
+.p401{
+
+ 
+  width: 100%;
+  margin-left:10px;
+  font-size:12px;
+  
+}
+
+.p402{
+  color:black;
+  margin-top:20px;
+  font-weight: bold;
+  margin-left:5px;
+}
+.p403{
+  margin-left:5px;
+  color:black;
+  font-size:14px;
+}
+
+
+.sq2{
+
+  position: absolute;
+  top:145%;
+  left:55%;
+  background-color: #f0a68b;
+  height: 150px;
+  width: 150px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq2:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq2:hover .p400{
+visibility: hidden;
+}
+
+.sq2:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq3{
+
+  position: absolute;
+  top:170%;
+  left:10%;
+  background-color: #fcb297;
+  height: 150px;
+  width: 150px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq3:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq3:hover .p400{
+visibility: hidden;
+}
+
+.sq3:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+
+.sq4{
+
+  position: absolute;
+  top:170%;
+  left:55%;
+  background-color: #fdcab0;
+  height: 150px;
+  width: 150px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq4:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq4:hover .p400{
+visibility: hidden;
+}
+
+.sq4:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+
+
+
+.sq5{
+
+  position: absolute;
+  top:195%;
+  left:10%;
+  background-color: #fed6bc;
+  height: 150px;
+  width: 150px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+
+.sq5:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq5:hover .p400{
+visibility: hidden;
+}
+
+.sq5:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq6{
+
+position: absolute;
+top:195%;
+left:55%;
+background-color: #76302a;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+
+.sq6:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq6:hover .p400{
+visibility: hidden;
+}
+
+.sq6:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+.sq7{
+
+position: absolute;
+top:220%;
+left:10%;
+background-color: #e87072;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq7:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq7:hover .p400{
+visibility: hidden;
+}
+
+.sq7:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+
+
+.sq8{
+
+position: absolute;
+top:220%;
+left:55%;
+background-color: #fb9b9e;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+
+
+.sq8:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq8:hover .p400{
+visibility: hidden;
+}
+
+.sq8:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+.sq9{
+
+position: absolute;
+top:245%;
+left:10%;
+background-color: #fdb1b6;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq9:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq9:hover .p400{
+visibility: hidden;
+}
+
+.sq9:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+
+
+
+.sq10{
+
+position: absolute;
+top:245%;
+left:55%;
+background-color: #fcbebe;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq10:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq10:hover .p400{
+visibility: hidden;
+}
+
+.sq10:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+
+.sq11{
+
+position: absolute;
+top:270%;
+left:10%;
+background-color: #7c3535;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq11:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq11:hover .p400{
+visibility: hidden;
+}
+
+.sq11:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+.sq12{
+
+position: absolute;
+top:270%;
+left:55%;
+background-color: #7c3535;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq12:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq12:hover .p400{
+visibility: hidden;
+}
+
+.sq12:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+.sq13{
+
+position: absolute;
+top:295%;
+left:10%;
+background-color:  #ea9a9d;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq13:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq13:hover .p400{
+visibility: hidden;
+}
+
+.sq13:hover .p401{
+visibility: hidden;
+
+}
+
+
+
+.sq14{
+
+position: absolute;
+top:295%;
+left:55%;
+background-color: #f7b1ad;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq14:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq14:hover .p400{
+visibility: hidden;
+}
+
+.sq14:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq15{
+
+position: absolute;
+top:320%;
+left:10%;
+background-color:  #fccdc9;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq15:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq15:hover .p400{
+visibility: hidden;
+}
+
+.sq15:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+.sq16{
+
+position: absolute;
+top:320%;
+left:55%;
+background-color:  #614238;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq16:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq16:hover .p400{
+visibility: hidden;
+}
+
+.sq16:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq17{
+
+position: absolute;
+top:345%;
+left:10%;
+background-color:  #b27a6f;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq17:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq17:hover .p400{
+visibility: hidden;
+}
+
+.sq17:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq18{
+
+position: absolute;
+top:345%;
+left:55%;
+background-color:  #bf847a;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq18:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq18:hover .p400{
+visibility: hidden;
+}
+
+.sq18:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq19{
+
+position: absolute;
+top:370%;
+left:10%;
+background-color:  #d38e85;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq19:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq19:hover .p400{
+visibility: hidden;
+}
+
+.sq19:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq20{
+
+position: absolute;
+top:370%;
+left:55%;
+background-color:  #ebb5ab;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq20:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq20:hover .p400{
+visibility: hidden;
+}
+
+.sq20:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq21{
+
+position: absolute;
+top:395%;
+left:10%;
+background-color:  #58453d;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq21:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq21:hover .p400{
+visibility: hidden;
+}
+
+.sq21:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq22{
+
+position: absolute;
+top:395%;
+left:55%;
+background-color:  #ad928a;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq22:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq22:hover .p400{
+visibility: hidden;
+}
+
+.sq22:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq23{
+
+position: absolute;
+top:420%;
+left:10%;
+background-color:  #b9a597;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq23:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq23:hover .p400{
+visibility: hidden;
+}
+
+.sq23:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq24{
+
+position: absolute;
+top:420%;
+left:55%;
+background-color:  #d0bbb0;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq24:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq24:hover .p400{
+visibility: hidden;
+}
+
+.sq24:hover .p401{
+visibility: hidden;
+}
+
+.sq24 .p401{
+font-size:12px;
+}
+
+
+
+
+.sq25{
+
+position: absolute;
+top:445%;
+left:10%;
+background-color:  #dfc7bc;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq25 .p401{
+font-size:12px;
+}
+
+.sq25:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq25:hover .p400{
+visibility: hidden;
+}
+
+.sq25:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+
+.sq26{
+
+position: absolute;
+top:445%;
+left:55%;
+background-color: #64483c;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq26:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq26:hover .p400{
+visibility: hidden;
+}
+
+.sq26:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq27{
+
+position: absolute;
+top:470%;
+left:10%;
+background-color: #c29d8a;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq27:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq27:hover .p400{
+visibility: hidden;
+}
+
+.sq27:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq28{
+
+position: absolute;
+top:470%;
+left:55%;
+background-color: #d7b09f;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq28:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq28:hover .p400{
+visibility: hidden;
+}
+
+.sq28:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq29{
+
+position: absolute;
+top:495%;
+left:10%;
+background-color: #deb9a6;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq29:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq29:hover .p400{
+visibility: hidden;
+}
+
+.sq29:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq30{
+
+position: absolute;
+top:495%;
+left:55%;
+background-color: #edc8b5;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq30:hover .overlay {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq30:hover .p400{
+visibility: hidden;
+}
+
+.sq30:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+
+.sq31{
+
+position: absolute;
+top:520%;
+left:10%;
+background-color: #99653c;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq31:hover .overlay1 {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq31:hover .p400{
+visibility: hidden;
+}
+
+.sq31:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq32{
+
+position: absolute;
+top:520%;
+left:55%;
+background-color: #e6be98;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq32:hover .overlay2 {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq32:hover .p400{
+visibility: hidden;
+}
+
+.sq32:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq33{
+
+position: absolute;
+top:545%;
+left:10%;
+background-color: #f4d2ae;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq33:hover .overlay3{
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq33:hover .p400{
+visibility: hidden;
+}
+
+.sq33:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq34{
+
+position: absolute;
+top:545%;
+left:55%;
+background-color: #f2cea9;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq34:hover .overlay4 {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq34:hover .p400{
+visibility: hidden;
+}
+
+.sq34:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq35{
+
+position: absolute;
+top:570%;
+left:10%;
+background-color: #f6d7b8;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq35:hover .overlay5 {
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq35:hover .p400{
+visibility: hidden;
+}
+
+.sq35:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq36{
+
+position: absolute;
+top:570%;
+left:55%;
+background-color: #786a41;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq36:hover .overlay6{
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq36:hover .p400{
+visibility: hidden;
+}
+
+.sq36:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq37{
+
+position: absolute;
+top:595%;
+left:10%;
+background-color: #c5b992;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+}
+
+.sq37:hover .overlay7{
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq37:hover .p400{
+visibility: hidden;
+}
+
+.sq37:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq38{
+
+position: absolute;
+top:595%;
+left:55%;
+background-color: #d0c599;
+height: 150px;
+width: 150px;
+color:white;
+font-weight: bold;
+font-size:20px;
+
+
+}
+
+.sq38:hover .overlay8{
+
+height: 40%;
+color:black;
+font-weight: bold;
+
+}
+
+.sq38:hover .p400{
+visibility: hidden;
+}
+
+.sq38:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq39{
+
+  position: absolute;
+  top:620%;
+  left:10%;
+  background-color:  #e5d1ac;
+  height: 150px;
+  width: 150px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  
+  
+  }
+  
+  .sq39:hover .overlay8{
+  
+  height: 40%;
+  color:black;
+  font-weight: bold;
+  
+  }
+  
+  .sq39:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq39:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq40{
+
+    position: absolute;
+    top:620%;
+    left:55%;
+    background-color:  #f9eac5    ;
+    height: 150px;
+    width: 150px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+    
+    }
+    
+    .sq40:hover .overlay8{
+    
+    height: 40%;
+    color:black;
+    font-weight: bold;
+    
+    }
+    
+    .sq40:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq40:hover .p401{
+    visibility: hidden;
+    }
+
+
+
+  .sq41{
+
+    position: absolute;
+    top:645%;
+    left:10%;
+    background-color:  #535d3d    ;
+    height: 150px;
+    width: 150px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+    
+    }
+    
+    .sq41:hover .overlay8{
+    
+    height: 40%;
+    color:black;
+    font-weight: bold;
+    
+    }
+    
+    .sq41:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq41:hover .p401{
+    visibility: hidden;
+    }
+    
+
+
+    .sq42{
+
+      position: absolute;
+      top:645%;
+      left:55%;
+      background-color: #909f7e;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq42:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq42:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq42:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+    
+  
+    .sq43{
+  
+      position: absolute;
+      top:670%;
+      left:10%;
+      background-color:#a4b18d;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq43:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq43:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq43:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+    
+  
+  
+    .sq44{
+  
+      position: absolute;
+      top:670%;
+      left:55%;
+      background-color:#b2bc9c;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq44:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq44:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq44:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+    
+  
+    .sq45{
+  
+      position: absolute;
+      top:695%;
+      left:10%;
+      background-color:#c1caaa;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq45:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq45:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq45:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+  
+  
+  
+    .sq46{
+  
+      position: absolute;
+      top:695%;
+      left:55%;
+      background-color:#504c42;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq46:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq46:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq46:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+  
+    .sq47{
+  
+      position: absolute;
+      top:720%;
+      left:10%;
+      background-color:#90917f;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq47:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq47:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq47:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+  
+    .sq48{
+  
+      position: absolute;
+      top:720%;
+      left:55%;
+      background-color:#aeab99;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq48:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq48:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq48:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+  
+  
+    .sq49{
+  
+      position: absolute;
+      top:745%;
+      left:10%;
+      background-color:#c3baaa;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq49:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq49:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq49:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+  
+  
+    .sq50{
+  
+      position: absolute;
+      top:745%;
+      left:55%;
+      background-color:#ccc3b2;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq50:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq50:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq50:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+  
+    .sq51{
+  
+      position: absolute;
+      top:770%;
+      left:10%;
+      background-color:#126554;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq51:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq51:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq51:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+    .sq52{
+  
+      position: absolute;
+      top:770%;
+      left:55%;
+      background-color:#5ecec4;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq52:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq52:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq52:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+    .sq53{
+  
+      position: absolute;
+      top:795%;
+      left:10%;
+      background-color:#7fe0d1;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq53:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq53:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq53:hover .p401{
+    visibility: hidden;
+    }
+    
+    
+  
+    .sq54{
+  
+      position: absolute;
+      top:795%;
+      left:55%;
+      background-color:#90e7d4;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq54:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq54:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq54:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq55{
+  
+      position: absolute;
+      top:820%;
+      left:10%;
+      background-color:#b7efdc;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq55:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq55:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq55:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+    .sq56{
+  
+      position: absolute;
+      top:820%;
+      left:55%;
+      background-color:#2b4570;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq56:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq56:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq56:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq57{
+  
+      position: absolute;
+      top:845%;
+      left:10%;
+      background-color:#7bcdf3;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq57:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq57:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq57:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq58{
+  
+      position: absolute;
+      top:845%;
+      left:55%;
+      background-color:#9ad9f6;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq58:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq58:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq58:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+    .sq59{
+  
+      position: absolute;
+      top:870%;
+      left:10%;
+      background-color:#a6e3f7;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq59:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq59:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq59:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+    .sq60{
+  
+      position: absolute;
+      top:870%;
+      left:55%;
+      background-color:#bceaf5;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq60:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq60:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq60:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq61{
+  
+      position: absolute;
+      top:895%;
+      left:10%;
+      background-color:#252522;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq61:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq61:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq61:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq62{
+  
+      position: absolute;
+      top:895%;
+      left:55%;
+      background-color:#696c72;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq62:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq62:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq62:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq63{
+  
+      position: absolute;
+      top:920%;
+      left:10%;
+      background-color: #8d908f;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq63:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq63:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq63:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+  
+    .sq64{
+  
+      position: absolute;
+      top:920%;
+      left:55%;
+      background-color: #a7a7a5;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq64:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq64:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq64:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq65{
+  
+      position: absolute;
+      top:945%;
+      left:10%;
+      background-color:#afafad;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq65:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq65:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq65:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq66{
+  
+      position: absolute;
+      top:945%;
+      left:55%;
+      background-color:#f6ab43;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq66:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq66:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq66:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq67{
+  
+      position: absolute;
+      top:970%;
+      left:10%;
+      background-color:#feef7d;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq67:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq67:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq67:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq68{
+  
+      position: absolute;
+      top:970%;
+      left:55%;
+      background-color:#fef795;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq68:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq68:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq68:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq69{
+  
+      position: absolute;
+      top:995%;
+      left:10%;
+      background-color:#fef9a7;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq69:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq69:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq69:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq70{
+  
+      position: absolute;
+      top:995%;
+      left:55%;
+      background-color:#fdfbc8;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq70:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq70:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq70:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq71{
+  
+      position: absolute;
+      top:1020%;
+      left:10%;
+      background-color:#e08835;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq71:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq71:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq71:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+    .sq72{
+  
+      position: absolute;
+      top:1020%;
+      left:55%;
+      background-color:#fbc565;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq72:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq72:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq72:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+    .sq73{
+  
+      position: absolute;
+      top:1045%;
+      left:10%;
+      background-color:#fbc565;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq73:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq73:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq73:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+    .sq74{
+  
+      position: absolute;
+      top:1045%;
+      left:55%;
+      background-color:#fdee90;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq74:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq74:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq74:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+    .sq75{
+  
+      position: absolute;
+      top:1070%;
+      left:10%;
+      background-color:#faeda3;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq75:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq75:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq75:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq76{
+  
+      position: absolute;
+      top:1070%;
+      left:55%;
+      background-color:#fb563e;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq76:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq76:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq76:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq77{
+  
+      position: absolute;
+      top:1095%;
+      left:10%;
+      background-color:#fc947b;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq77:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq77:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq77:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq78{
+  
+      position: absolute;
+      top:1095%;
+      left:55%;
+      background-color:#fdb6a4;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq78:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq78:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq78:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq79{
+  
+      position: absolute;
+      top:1120%;
+      left:10%;
+      background-color:#fdbca9;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq79:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq79:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq79:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq80{
+  
+      position: absolute;
+      top:1120%;
+      left:55%;
+      background-color:#fdbfad;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq80:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq80:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq80:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .sq81{
+  
+      position: absolute;
+      top:1145%;
+      left:10%;
+      background-color:#723839;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq81:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq81:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq81:hover .p401{
+    visibility: hidden;
+    }
+    
+  
+  
+  
+    .sq82{
+  
+      position: absolute;
+      top:1145%;
+      left:55%;
+      background-color:#c18197;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq82:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq82:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq82:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+    .sq83{
+  
+      position: absolute;
+      top:1170%;
+      left:10%;
+      background-color:#db97a4;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq83:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq83:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq83:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+  
+    .sq84{
+  
+      position: absolute;
+      top:1170%;
+      left:55%;
+      background-color:#e2acbb;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq84:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq84:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq84:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+  
+  
+  
+    .sq85{
+  
+      position: absolute;
+      top:1195%;
+      left:10%;
+      background-color:#f4cbce;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq85:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq85:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq85:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+  
+  
+    .sq86{
+  
+      position: absolute;
+      top:1195%;
+      left:55%;
+      background-color:#629446;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq86:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq86:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq86:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+  
+  
+    .sq87{
+  
+      position: absolute;
+      top:1220%;
+      left:10%;
+      background-color:#8ebc5a;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq87:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq87:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq87:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+  
+    .sq88{
+  
+      position: absolute;
+      top:1220%;
+      left:55%;
+      background-color:#b0dc8f;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq88:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq88:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq88:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+  
+    .sq89{
+  
+      position: absolute;
+      top:1245%;
+      left:10%;
+      background-color: #c3e1a4;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq89:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq89:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq89:hover .p401{
+    visibility: hidden;
+    }
+  
+  
+    .sq90{
+  
+      position: absolute;
+      top:1245%;
+      left:55%;
+      background-color: #dbeabf;
+      height: 150px;
+      width: 150px;
+      color:white;
+      font-weight: bold;
+      font-size:20px;
+      
+    
+    }
+    
+    .sq90:hover .overlay{
+      
+    height: 40%;
+      color:black;
+      font-weight: bold;
+    
+    }
+    
+    .sq90:hover .p400{
+    visibility: hidden;
+    }
+    
+    .sq90:hover .p401{
+    visibility: hidden;
+    }
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info-bar{
+  position: absolute;
+  top:1280%;
+  background-color:#3b4b57;
+  left:0px;
+  right:0px;
+  height:850px;
+  width: 105%;
+  
+}
+
+.p5{
+  color:rgb(207, 207, 27);
+  font-size:14px;
+  margin-left:10%;
+  margin-top:1%;
+  font-weight: bold;
+}
+
+.p6{
+  color:rgb(156, 156, 29);
+  margin-top: 5%;
+  font-size:12px;
+  margin-left:10%;
+}
+
+.p7{
+  color:rgb(156, 156, 29);
+  margin-top: 1%;
+  font-size:12px;
+  margin-left:10%;
+}
+
+.p8{
+  color:rgb(156, 156, 29);
+  margin-top: 1%;
+  font-size:12px;
+  margin-left:10%;
+}
+
+.p9{
+  color:rgb(156, 156, 29);
+  margin-top: 3%;
+  font-size:12px;
+  margin-left:10%;
+  width: 21%;
+}
+
+.p10{
+  color:rgb(156, 156, 29);
+  margin-top: 3%;
+  font-size:12px;
+  margin-left:10%;
+  width: 21%;
+}
+
+
+h1 {
+  color: green;
+}
+
+h3 {
+  color: #333;
+}
+
+.social-btns {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  top:3%;
+  left:70%;
+}
+
+.social-btns a {
+  color: rgb(233, 233, 17);
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+ 
+}
+
+.social-btns a:hover {
+  transform: scale(1.5);
+}
+
+.social-btns a:hover i.fa-facebook {
+  color: #3b5998;
+  
+}
+
+
+.social-btns a:hover i.fa-instagram {
+  color: #e4405f;
+}
+
+.i1{
+position: absolute;
+top:6%;
+left:60%;
+}
+
+.info-logo{
+width: 85%;
+
+}
+
+.p11{
+position: absolute;
+top:85%;
+left:40%;
+color:rgb(156, 156, 29);
+font-size: 12px;
+font-weight: bold;
+}
+
+.i2{
+position: absolute;
+top:80%;
+left:65%;
+}
+
+.info-p-logo{
+height: 50px;
+border-radius: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+body {
+    background: #101820;
+    font-family: 'Lexend Exa', sans-serif;
+  }
+  
+  nav {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    border: 2px solid #EBECF1;
+    border-radius: 30px;
+    animation: slide-in 1s ease-out;
+    z-index: 100;
+    background-color: #101820;
+  }
+  
+  ul {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0 30px;
+    list-style-type: none;
+    li:not(:last-child) {
+      margin-right: 40px;
+    }
+    li {
+      border: 2px solid transparent;
+      border-radius: 5px;
+      padding: 10px;
+      transition: background 0.2s;
+      a {
+        color: rgb(156, 156, 29);
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 0.2s;
+      }
+      ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        display: block;
+        margin: 12px -12px;
+        padding: 0;
+        background: #90AFC5;
+        border: 2px solid #90AFC5;
+        border-right: 2px solid #90AFC5;
+        border-bottom: 2px solid #90AFC5;
+        border-radius: 5px;
+        transition: opacity 0.2s, visibility 0.2s;
+        li {
+          margin: -2px 0 0 -2px;
+          width: calc(100% - 20px);
+          line-height: 1.7;
+          
+          a {
+            color: #2375D8;
+          }
+        }
+      }
+      &:hover {
+        background: #90afc549;
+        border: 2px solid #90afc549;
+        border-right: 2px solid#90afc549;
+        border-bottom: 2px solid #90afc549;
+        a {
+          color: #F9F8FD;
+        }
+        ul {
+          visibility: visible;
+          opacity: 1;
+          box-shadow: 0px 3px 5px 2px white;
+          li {
+            a {
+              color: #F9F8FD;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes slide-in {
+    0% {
+      top: -50px;
+    }
+    40% {
+      top: 20px;
+    }
+    70% {
+      top: 10px;
+    }
+    100% {
+      top: 15px;
+    }
+  }
+
+
+  * {box-sizing:border-box}
+
+  .main-logo{
+    position: fixed;
+    z-index: 17;
+    height: 200px;
+    top:-50px;
+    left:-20px;
+    border-radius: 60px;
+  }
+
+  .i3{
+    position: absolute;
+    top:150px;
+    left:0px;
+    right:0px;
+  }
+
+  .header{
+    position: absolute;
+    top:430px;
+    color:rgb(156, 156, 29);
+    font-size:38px;
+    left:200px;
+    font-weight: bold;
+  }
+
+ 
+  .p300{
+    position: absolute;
+    top:550px;
+    width: 900px;
+    left:200px;
+    color:rgb(156, 156, 29);
+    font-size:22px;
+  }
+
+  .p301{
+    position: absolute;
+    top:700px;
+    width: 800px;
+    left:200px;
+    color:rgb(156, 156, 29);
+    font-size:22px;
+  }
+
+
+
+  
+
+
+
+.sq1{
+
+    position: absolute;
+    top:900px;
+    left:200px;
+    background-color: #a85738;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+.sq1:hover .overlay {
+    
+	height: 40%;
+    color:black;
+    font-weight: bold;
+
+}
+
+.sq1:hover .p400{
+    visibility: hidden;
+}
+
+.sq1:hover .p401{
+    visibility: hidden;
+    
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity: 0.5;
+    
+  }
+
+
+
+
+  
+
+
+
+.p400{
+
+    margin-left:10px;
+    margin-top:135px;
+    
+}
+
+
+.p401{
+
+   
+    width: 100%;
+    margin-left:10px;
+    font-size:18px;
+    margin-top:130px;
+    
+}
+
+.p402{
+    color:black;
+    margin-top:20px;
+    font-weight: bold;
+    margin-left:5px;
+}
+.p403{
+    margin-left:5px;
+    color:black;
+    font-size:18px;
+}
+
+
+.sq2{
+
+    position: absolute;
+    top:900px;
+    left:470px;
+    background-color: #f0a68b;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+.sq2:hover .overlay {
+    
+	height: 40%;
+    color:black;
+    font-weight: bold;
+
+}
+
+.sq2:hover .p400{
+  visibility: hidden;
+}
+
+.sq2:hover .p401{
+  visibility: hidden;
+    
+}
+
+
+
+.sq3{
+
+    position: absolute;
+    top:900px;
+    left:740px;
+    background-color: #fcb297;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+.sq3:hover .overlay {
+    
+	height: 40%;
+    color:black;
+    font-weight: bold;
+
+}
+
+.sq3:hover .p400{
+  visibility: hidden;
+}
+
+.sq3:hover .p401{
+  visibility: hidden;
+    
+}
+
+
+
+
+.sq4{
+
+    position: absolute;
+    top:900px;
+    left:1000px;
+    background-color: #fdcab0;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+.sq4:hover .overlay {
+    
+	height: 40%;
+    color:black;
+    font-weight: bold;
+
+}
+
+.sq4:hover .p400{
+  visibility: hidden;
+}
+
+.sq4:hover .p401{
+  visibility: hidden;
+    
+}
+
+
+
+
+
+
+.sq5{
+
+    position: absolute;
+    top:900px;
+    left:1260px;
+    background-color: #fed6bc;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+
+.sq5:hover .overlay {
+    
+	height: 40%;
+    color:black;
+    font-weight: bold;
+
+}
+
+.sq5:hover .p400{
+  visibility: hidden;
+}
+
+.sq5:hover .p401{
+  visibility: hidden;
+    
+}
+
+
+
+.sq6{
+
+  position: absolute;
+  top:1200px;
+  left:200px;
+  background-color: #76302a;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+
+.sq6:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq6:hover .p400{
+visibility: hidden;
+}
+
+.sq6:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq7{
+
+  position: absolute;
+  top:1200px;
+  left:470px;
+  background-color: #e87072;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq7:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq7:hover .p400{
+  visibility: hidden;
+}
+
+.sq7:hover .p401{
+  visibility: hidden;
+  
+}
+
+.sq7 .p400{
+  margin-top:135px;
+}
+
+
+
+.sq8{
+
+  position: absolute;
+  top:1200px;
+  left:740px;
+  background-color: #fb9b9e;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq8 .p400{
+  margin-top:135px;
+}
+
+.sq8:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq8:hover .p400{
+visibility: hidden;
+}
+
+.sq8:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq9{
+
+  position: absolute;
+  top:1200px;
+  left:1000px;
+  background-color: #fdb1b6;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq9:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq9:hover .p400{
+visibility: hidden;
+}
+
+.sq9:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+
+
+
+.sq10{
+
+  position: absolute;
+  top:1200px;
+  left:1260px;
+  background-color: #fcbebe;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq10:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq10:hover .p400{
+visibility: hidden;
+}
+
+.sq10:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+
+.sq11{
+
+  position: absolute;
+  top:1500px;
+  left:200px;
+  background-color: #7c3535;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq11:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq11:hover .p400{
+visibility: hidden;
+}
+
+.sq11:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq12{
+
+  position: absolute;
+  top:1500px;
+  left:470px;
+  background-color: #7c3535;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq12:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq12:hover .p400{
+visibility: hidden;
+}
+
+.sq12:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq13{
+
+  position: absolute;
+  top:1500px;
+  left:740px;
+  background-color:  #ea9a9d;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq13:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq13:hover .p400{
+visibility: hidden;
+}
+
+.sq13:hover .p401{
+visibility: hidden;
+  
+}
+
+
+
+.sq14{
+
+  position: absolute;
+  top:1500px;
+  left:1000px;
+  background-color: #f7b1ad;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq14:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq14:hover .p400{
+visibility: hidden;
+}
+
+.sq14:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq15{
+
+  position: absolute;
+  top:1500px;
+  left:1260px;
+  background-color:  #fccdc9;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq15:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq15:hover .p400{
+visibility: hidden;
+}
+
+.sq15:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+.sq16{
+
+  position: absolute;
+  top:1800px;
+  left:200px;
+  background-color:  #614238;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq16:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq16:hover .p400{
+visibility: hidden;
+}
+
+.sq16:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq17{
+
+  position: absolute;
+  top:1800px;
+  left:470px;
+  background-color:  #b27a6f;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq17:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq17:hover .p400{
+visibility: hidden;
+}
+
+.sq17:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq18{
+
+  position: absolute;
+  top:1800px;
+  left:740px;
+  background-color:  #bf847a;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq18:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq18:hover .p400{
+visibility: hidden;
+}
+
+.sq18:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq19{
+
+  position: absolute;
+  top:1800px;
+  left:1000px;
+  background-color:  #d38e85;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq19:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq19:hover .p400{
+visibility: hidden;
+}
+
+.sq19:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq20{
+
+  position: absolute;
+  top:1800px;
+  left:1260px;
+  background-color:  #ebb5ab;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq20:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq20:hover .p400{
+visibility: hidden;
+}
+
+.sq20:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq21{
+
+  position: absolute;
+  top:2100px;
+  left:200px;
+  background-color:  #58453d;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq21:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq21:hover .p400{
+visibility: hidden;
+}
+
+.sq21:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq22{
+
+  position: absolute;
+  top:2100px;
+  left:470px;
+  background-color: #ad928a  ;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq22:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq22:hover .p400{
+visibility: hidden;
+}
+
+.sq22:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq23{
+
+  position: absolute;
+  top:2100px;
+  left:740px;
+  background-color:  #b9a597;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq23:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq23:hover .p400{
+visibility: hidden;
+}
+
+.sq23:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq24{
+
+  position: absolute;
+  top:2100px;
+  left:1000px;
+  background-color: #d0bbb0;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq24:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq24:hover .p400{
+visibility: hidden;
+}
+
+.sq24:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+.sq25{
+
+  position: absolute;
+  top:2100px;
+  left:1260px;
+  background-color: #dfc7bc;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+
+
+.sq25:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq25:hover .p400{
+visibility: hidden;
+}
+
+.sq25:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+
+.sq26{
+
+  position: absolute;
+  top:2400px;
+  left:200px;
+  background-color: #64483c;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq26:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq26:hover .p400{
+visibility: hidden;
+}
+
+.sq26:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq27{
+
+  position: absolute;
+  top:2400px;
+  left:470px;
+  background-color: #c29d8a;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq27:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq27:hover .p400{
+visibility: hidden;
+}
+
+.sq27:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq28{
+
+  position: absolute;
+  top:2400px;
+  left:740px;
+  background-color:#d7b09f;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq28:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq28:hover .p400{
+visibility: hidden;
+}
+
+.sq28:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq29{
+
+  position: absolute;
+  top:2400px;
+  left:1000px;
+  background-color: #deb9a6  ;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq29:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq29:hover .p400{
+visibility: hidden;
+}
+
+.sq29:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq30{
+
+  position: absolute;
+  top:2400px;
+  left:1260px;
+  background-color:#edc8b5 ;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq30:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq30:hover .p400{
+visibility: hidden;
+}
+
+.sq30:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+
+
+.sq31{
+
+  position: absolute;
+  top:2700px;
+  left:200px;
+  background-color: #99653c;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq31:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq31:hover .p400{
+visibility: hidden;
+}
+
+.sq31:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq32{
+
+  position: absolute;
+  top:2700px;
+  left:470px;
+  background-color: #e6be98;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq32:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq32:hover .p400{
+visibility: hidden;
+}
+
+.sq32:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq33{
+
+  position: absolute;
+  top:2700px;
+  left:740px;
+  background-color: #f4d2ae;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq33:hover .overlay{
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq33:hover .p400{
+visibility: hidden;
+}
+
+.sq33:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq34{
+
+  position: absolute;
+  top:2700px;
+  left:1000px;
+  background-color: #f2cea9;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq34:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq34:hover .p400{
+visibility: hidden;
+}
+
+.sq34:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq35{
+
+  position: absolute;
+  top:2700px;
+  left:1260px;
+  background-color: #f6d7b8;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq35:hover .overlay {
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq35:hover .p400{
+visibility: hidden;
+}
+
+.sq35:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+
+.sq36{
+
+  position: absolute;
+  top:3000px;
+  left:200px;
+  background-color: #786a41;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq36:hover .overlay{
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq36:hover .p400{
+visibility: hidden;
+}
+
+.sq36:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq37{
+
+  position: absolute;
+  top:3000px;
+  left:470px;
+  background-color: #c5b992;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+.sq37:hover .overlay{
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq37:hover .p400{
+visibility: hidden;
+}
+
+.sq37:hover .p401{
+visibility: hidden;
+}
+
+
+
+.sq38{
+
+  position: absolute;
+  top:3000px;
+  left:740px;
+  background-color: #d0c599;
+  height: 200px;
+  width: 200px;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  
+
+}
+
+.sq38:hover .overlay{
+  
+height: 40%;
+  color:black;
+  font-weight: bold;
+
+}
+
+.sq38:hover .p400{
+visibility: hidden;
+}
+
+.sq38:hover .p401{
+visibility: hidden;
+}
+
+
+
+
+.sq39{
+
+    position: absolute;
+    top:3000px;
+    left:1000px;
+    background-color: #e5d1ac;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq39:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq39:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq39:hover .p401{
+  visibility: hidden;
+  }
+
+
+  .sq40{
+
+    position: absolute;
+    top:3000px;
+    left:1260px;
+    background-color: #f9eac5;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq40:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq40:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq40:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+  
+  
+  .sq41{
+
+    position: absolute;
+    top:3300px;
+    left:200px;
+    background-color: #535d3d;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq41:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq41:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq41:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+  
+
+  .sq42{
+
+    position: absolute;
+    top:3300px;
+    left:470px;
+    background-color: #909f7e;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq42:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq42:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq42:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+  
+
+  .sq43{
+
+    position: absolute;
+    top:3300px;
+    left:740px;
+    background-color:#a4b18d;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq43:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq43:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq43:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+  
+
+
+  .sq44{
+
+    position: absolute;
+    top:3300px;
+    left:1000px;
+    background-color:#b2bc9c;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq44:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq44:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq44:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+  
+
+  .sq45{
+
+    position: absolute;
+    top:3300px;
+    left:1260px;
+    background-color:#c1caaa;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq45:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq45:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq45:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+
+
+
+  .sq46{
+
+    position: absolute;
+    top:3600px;
+    left:200px;
+    background-color:#504c42;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq46:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq46:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq46:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+
+  .sq47{
+
+    position: absolute;
+    top:3600px;
+    left:470px;
+    background-color:#90917f;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq47:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq47:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq47:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+
+  .sq48{
+
+    position: absolute;
+    top:3600px;
+    left:740px;
+    background-color:#aeab99;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq48:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq48:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq48:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+
+
+  .sq49{
+
+    position: absolute;
+    top:3600px;
+    left:1000px;
+    background-color:#c3baaa;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq49:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq49:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq49:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+
+
+  .sq50{
+
+    position: absolute;
+    top:3600px;
+    left:1260px;
+    background-color:#ccc3b2;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq50:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq50:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq50:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+
+  .sq51{
+
+    position: absolute;
+    top:3900px;
+    left:200px;
+    background-color:#126554;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq51:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq51:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq51:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+  .sq52{
+
+    position: absolute;
+    top:3900px;
+    left:470px;
+    background-color:#5ecec4;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq52:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq52:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq52:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+  .sq53{
+
+    position: absolute;
+    top:3900px;
+    left:740px;
+    background-color:#7fe0d1;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq53:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq53:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq53:hover .p401{
+  visibility: hidden;
+  }
+  
+  
+
+  .sq54{
+
+    position: absolute;
+    top:3900px;
+    left:1000px;
+    background-color:#90e7d4;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq54:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq54:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq54:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq55{
+
+    position: absolute;
+    top:3900px;
+    left:1260px;
+    background-color:#b7efdc;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq55:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq55:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq55:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+  .sq56{
+
+    position: absolute;
+    top:4200px;
+    left:200px;
+    background-color:#2b4570;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq56:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq56:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq56:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq57{
+
+    position: absolute;
+    top:4200px;
+    left:470px;
+    background-color:#7bcdf3;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq57:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq57:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq57:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq58{
+
+    position: absolute;
+    top:4200px;
+    left:740px;
+    background-color:#9ad9f6;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq58:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq58:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq58:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+  .sq59{
+
+    position: absolute;
+    top:4200px;
+    left:1000px;
+    background-color:#a6e3f7;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq59:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq59:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq59:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+  .sq60{
+
+    position: absolute;
+    top:4200px;
+    left:1260px;
+    background-color:#bceaf5;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq60:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq60:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq60:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq61{
+
+    position: absolute;
+    top:4500px;
+    left:200px;
+    background-color:#252522;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq61:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq61:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq61:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq62{
+
+    position: absolute;
+    top:4500px;
+    left:470px;
+    background-color:#696c72;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq62:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq62:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq62:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq63{
+
+    position: absolute;
+    top:4500px;
+    left:740px;
+    background-color: #8d908f;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq63:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq63:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq63:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+
+  .sq64{
+
+    position: absolute;
+    top:4500px;
+    left:1000px;
+    background-color: #a7a7a5;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq64:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq64:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq64:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq65{
+
+    position: absolute;
+    top:4500px;
+    left:1260px;
+    background-color:#afafad;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq65:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq65:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq65:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq66{
+
+    position: absolute;
+    top:4800px;
+    left:200px;
+    background-color:#f6ab43;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq66:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq66:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq66:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq67{
+
+    position: absolute;
+    top:4800px;
+    left:470px;
+    background-color:#feef7d;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq67:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq67:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq67:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq68{
+
+    position: absolute;
+    top:4800px;
+    left:740px;
+    background-color:#fef795;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq68:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq68:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq68:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq69{
+
+    position: absolute;
+    top:4800px;
+    left:1000px;
+    background-color:#fef9a7;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq69:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq69:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq69:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq70{
+
+    position: absolute;
+    top:4800px;
+    left:1260px;
+    background-color:#fdfbc8;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq70:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq70:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq70:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq71{
+
+    position: absolute;
+    top:5100px;
+    left:200px;
+    background-color:#e08835;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq71:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq71:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq71:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+  .sq72{
+
+    position: absolute;
+    top:5100px;
+    left:470px;
+    background-color:#fbc565;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq72:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq72:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq72:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+  .sq73{
+
+    position: absolute;
+    top:5100px;
+    left:740px;
+    background-color:#fbc565;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq73:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq73:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq73:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+  .sq74{
+
+    position: absolute;
+    top:5100px;
+    left:1000px;
+    background-color:#fdee90;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq74:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq74:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq74:hover .p401{
+  visibility: hidden;
+  }
+  
+
+  .sq75{
+
+    position: absolute;
+    top:5100px;
+    left:1260px;
+    background-color:#faeda3;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq75:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq75:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq75:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq76{
+
+    position: absolute;
+    top:5400px;
+    left:200px;
+    background-color:#fb563e;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq76:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq76:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq76:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq77{
+
+    position: absolute;
+    top:5400px;
+    left:470px;
+    background-color:#fc947b;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq77:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq77:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq77:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq78{
+
+    position: absolute;
+    top:5400px;
+    left:740px;
+    background-color:#fdb6a4;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq78:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq78:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq78:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq79{
+
+    position: absolute;
+    top:5400px;
+    left:1000px;
+    background-color:#fdbca9;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq79:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq79:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq79:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq80{
+
+    position: absolute;
+    top:5400px;
+    left:1260px;
+    background-color:#fdbfad;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq80:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq80:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq80:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .sq81{
+
+    position: absolute;
+    top:5700px;
+    left:200px;
+    background-color:#723839;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq81:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq81:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq81:hover .p401{
+  visibility: hidden;
+  }
+  
+
+
+
+  .sq82{
+
+    position: absolute;
+    top:5700px;
+    left:470px;
+    background-color:#c18197;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq82:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq82:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq82:hover .p401{
+  visibility: hidden;
+  }
+
+
+  .sq83{
+
+    position: absolute;
+    top:5700px;
+    left:740px;
+    background-color:#db97a4;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq83:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq83:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq83:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+  .sq84{
+
+    position: absolute;
+    top:5700px;
+    left:1000px;
+    background-color:#e2acbb;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq84:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq84:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq84:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+
+
+  .sq85{
+
+    position: absolute;
+    top:5700px;
+    left:1260px;
+    background-color:#f4cbce;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq85:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq85:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq85:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+
+  .sq86{
+
+    position: absolute;
+    top:6000px;
+    left:200px;
+    background-color:#629446;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq86:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq86:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq86:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+
+  .sq87{
+
+    position: absolute;
+    top:6000px;
+    left:470px;
+    background-color:#8ebc5a;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq87:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq87:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq87:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+  .sq88{
+
+    position: absolute;
+    top:6000px;
+    left:740px;
+    background-color:#b0dc8f;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq88:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq88:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq88:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+  .sq89{
+
+    position: absolute;
+    top:6000px;
+    left:1000px;
+    background-color: #c3e1a4;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq89:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq89:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq89:hover .p401{
+  visibility: hidden;
+  }
+
+
+  .sq90{
+
+    position: absolute;
+    top:6000px;
+    left:1260px;
+    background-color: #dbeabf;
+    height: 200px;
+    width: 200px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    
+  
+  }
+  
+  .sq90:hover .overlay{
+    
+  height: 40%;
+    color:black;
+    font-weight: bold;
+  
+  }
+  
+  .sq90:hover .p400{
+  visibility: hidden;
+  }
+  
+  .sq90:hover .p401{
+  visibility: hidden;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .info-bar{
+    position: absolute;
+    top:6300px;
+    background-color:#3b4b57;
+    left:0px;
+    right:0px;
+    height: 500px;
+  }
+
+  .p5{
+    color:rgb(207, 207, 27);
+    font-size:30px;
+    margin-left:200px;
+    margin-top:10px;
+    font-weight: bold;
+  }
+
+  .p6{
+    color:rgb(156, 156, 29);
+    margin-top: 35px;
+    font-size:24px;
+    margin-left:200px;
+  }
+
+  .p7{
+    color:rgb(156, 156, 29);
+    margin-top: 15px;
+    font-size:24px;
+    margin-left:200px;
+  }
+
+  .p8{
+    color:rgb(156, 156, 29);
+    margin-top: 15px;
+    font-size:24px;
+    margin-left:200px;
+  }
+
+  .p9{
+    color:rgb(156, 156, 29);
+    margin-top: 45px;
+    font-size:24px;
+    margin-left:200px;
+    width: 400px;
+  }
+
+  .p10{
+    color:rgb(156, 156, 29);
+    margin-top: 45px;
+    font-size:24px;
+    margin-left:200px;
+    width: 400px;
+  }
+
+
+  h1 {
+    color: green;
+}
+
+h3 {
+    color: #333;
+}
+
+.social-btns {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top:30px;
+    left:1650px;
+}
+
+.social-btns a {
+    color: rgb(233, 233, 17);
+    font-size: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+   
+}
+
+.social-btns a:hover {
+    transform: scale(1.5);
+}
+
+.social-btns a:hover i.fa-facebook {
+    color: #3b5998;
+    
+}
+
+
+.social-btns a:hover i.fa-instagram {
+    color: #e4405f;
+}
+
+.i1{
+  position: absolute;
+  top:80px;
+  left:1600px;
+}
+
+.info-logo{
+  height: 300px;
+}
+
+.p11{
+  position: absolute;
+  top:450px;
+  left:1620px;
+  color:rgb(156, 156, 29);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.i2{
+  position: absolute;
+  top:400px;
+  left:1720px;
+}
+
+.info-p-logo{
+  height: 80px;
+  border-radius: 50px;
+}
+
+  
+
+
+}
