@@ -103,6 +103,15 @@
   
   
   * {box-sizing:border-box}
+
+
+  .slid-p{
+    height:250px;
+    width:250px;
+  }
+
+
+
   
   /* Slideshow container */
   .slideshow-container {
@@ -183,10 +192,7 @@
     top: 0;
   }
 
-  .slid-p{
-    height:250px;
-    width:250px;
-  }
+  
   
   /* The dots/bullets/indicators */
   .dot {
