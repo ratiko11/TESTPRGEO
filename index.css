@@ -115,9 +115,9 @@
   
   /* Slideshow container */
   .slideshow-container {
-    max-width: 40%;
+    max-width: 100%;
     position: relative;
-    left:20%;
+    left:10%;
     top: 200px;
     height:250px;
   }
