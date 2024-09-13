@@ -180,6 +180,10 @@
     position: absolute;
     top: 0;
   }
+
+  .slidp{
+    height:250px;
+  }
   
   /* The dots/bullets/indicators */
   .dot {
