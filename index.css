@@ -216,7 +216,7 @@
     position: absolute;
     width: 36%;
     left:10%;
-    top:150%;
+    top:130%;
     width: 80%;
   }
   
@@ -287,7 +287,7 @@
     width: 35%;
     left:10%;
     border-radius: 60px;
-    top:150%;
+    top:210%;
     width: 80%;
     
   }
@@ -296,7 +296,7 @@
   
   .rec{
     
-    top:220%;
+    top:280%;
     position: absolute;
     left:10%;
     width: 60%;
@@ -339,7 +339,7 @@
   
   .launj{
     position: absolute;
-    top:270%;
+    top:330%;
     left:10%;
     width: 60%;
     display:flex;
@@ -350,7 +350,7 @@
   
   .bedroom{
     position: absolute;
-    top: 320%;
+    top: 380%;
     left:10%;
     width: 60%;
    
@@ -369,7 +369,7 @@
   
   .penguin-penakril{
     position: absolute;
-    top:370%;
+    top:430%;
     left:30%;
     width: 50%;
     background-color: white;
@@ -409,7 +409,7 @@
   
   .penguin-penplast{
     position: absolute;
-    top:440%;
+    top:500%;
     left:30%;
     width: 50%;
     background-color: white;
@@ -423,7 +423,7 @@
   
   .penguin-penplus{
     position: absolute;
-    top:505%;
+    top:565%;
     left:30%;
     width: 50%;
     background-color: white;
@@ -437,7 +437,7 @@
   
   .penguin-pensilan-primer{
     position: absolute;
-    top:580%;
+    top:640%;
     left:30%;
     width: 50%;
     background-color: white;
@@ -451,7 +451,7 @@
   
   .info-bar{
     position: absolute;
-    top:680%;
+    top:740%;
     background-color:#3b4b57;
     left:0px;
     right:0px;
