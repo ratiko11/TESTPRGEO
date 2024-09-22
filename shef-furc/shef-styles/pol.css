@@ -1,0 +1,35 @@
+.pol1{
+    position: absolute;
+    margin-top:2297px;
+    display: flex;
+    left:0px;
+    right:0px;
+    height: 120px;
+}
+
+.pol2{
+  position: absolute;
+  margin-top:2414px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
+
+.pol3{
+  position: absolute;
+  margin-top:2531px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
+
+.pol4{
+  position: absolute;
+  margin-top:2648px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}

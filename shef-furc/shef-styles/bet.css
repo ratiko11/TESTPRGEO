@@ -1,0 +1,26 @@
+.bet1{
+  position: absolute;
+  margin-top:2902px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
+
+.bet2{
+  position: absolute;
+  margin-top:3019px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
+
+.bet3{
+  position: absolute;
+  margin-top:3136px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}

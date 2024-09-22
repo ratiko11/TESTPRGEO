@@ -1,0 +1,58 @@
+.sod1{
+  position: absolute;
+  margin-top:324px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+  font-size:10px;
+}
+
+.left-mid-top{
+  height: 45px;
+  border-style: solid;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  background-color: #101820;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  border-color:#082b1e;
+  font-size:10px;
+}
+
+.left-mid-bot{
+  font-size:8px;
+  font-weight: bold;
+  border-color:#082b1e;
+  
+}
+
+
+.sod2{
+  position: absolute;
+  margin-top:441px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
+
+.sod3{
+  position: absolute;
+  margin-top:558px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
+
+.sod4{
+  position: absolute;
+  margin-top:675px;
+  display: flex;
+  left:0px;
+  right:0px;
+  height: 120px;
+}
