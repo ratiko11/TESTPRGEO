@@ -16,7 +16,7 @@
     animation: slide-in 1s ease-out;
     z-index: 100;
     background-color: #101820;
-    width: 90%;
+    width: 80%;
   }
   
   ul {
@@ -27,7 +27,7 @@
     padding: 0 30px;
     list-style-type: none;
     li:not(:last-child) {
-      margin-right: 40px;
+      margin-right: 20px;
     }
     li {
       border: 2px solid transparent;
